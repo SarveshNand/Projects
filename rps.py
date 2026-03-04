@@ -47,5 +47,5 @@ while True:
         print("Invalid Choice! Now, Play again.")
 
 print("==========================================================================================")
-print(f"The game score in {counter} rounds ->\nYours: {user_counter} Computer: {computer_counter}")
+print(f"The game score in {counter} rounds ->\nYours: {user_counter} Computer: {computer_counter} Tie: {counter - (user_counter + computer_counter)}")
 print("==========================================================================================")
